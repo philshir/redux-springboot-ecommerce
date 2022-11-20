@@ -80,7 +80,7 @@ const routes: Routes = [
     OrderHistoryComponent
   ],
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { useHash:true}),
     BrowserModule,
     HttpClientModule,
     NgbModule,
